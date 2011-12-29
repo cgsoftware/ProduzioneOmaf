@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+
+{
+    "name": "Gestione Costi di Produzione Omaf ",
+    "version": "1.01",
+    "depends": ["product", "account"],
+    "author": "C & G Software S.a.s.",
+    "category": "Product",
+    "description": """Permette di creare report ed inventari suddividendo le categorie di costo 
+    che determinano il costo finale di produzione
+    """,
+    "init_xml": [],
+    'update_xml': [
+                   'costi_prod.xml',
+                   'security/ir.model.access.csv',
+                   ],
+    'demo_xml': [],
+    'installable': True,
+    'active': False,
+#    'certificate': '${certificate}',
+}
